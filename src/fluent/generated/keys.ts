@@ -5,6 +5,130 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '0378b2e22f76be101e83cb2cbfa4e36f': {
+                        table: 'sys_ui_element'
+                        id: '0378b2e22f76be101e83cb2cbfa4e36f'
+                    }
+                    '0378b2e22f76be101e83cb2cbfa4e377': {
+                        table: 'sys_ui_element'
+                        id: '0378b2e22f76be101e83cb2cbfa4e377'
+                    }
+                    '0378b2e22f76be101e83cb2cbfa4e37c': {
+                        table: 'sys_ui_element'
+                        id: '0378b2e22f76be101e83cb2cbfa4e37c'
+                    }
+                    '0778b2e22f76be101e83cb2cbfa4e36d': {
+                        table: 'sys_ui_element'
+                        id: '0778b2e22f76be101e83cb2cbfa4e36d'
+                    }
+                    '0778b2e22f76be101e83cb2cbfa4e37a': {
+                        table: 'sys_ui_element'
+                        id: '0778b2e22f76be101e83cb2cbfa4e37a'
+                    }
+                    '0b78b2e22f76be101e83cb2cbfa4e378': {
+                        table: 'sys_ui_element'
+                        id: '0b78b2e22f76be101e83cb2cbfa4e378'
+                    }
+                    '0b78b2e22f76be101e83cb2cbfa4e3c8': {
+                        table: 'sys_ui_element'
+                        id: '0b78b2e22f76be101e83cb2cbfa4e3c8'
+                    }
+                    '0f78b2e22f76be101e83cb2cbfa4e370': {
+                        table: 'sys_ui_element'
+                        id: '0f78b2e22f76be101e83cb2cbfa4e370'
+                    }
+                    '4378b2e22f76be101e83cb2cbfa4e36c': {
+                        table: 'sys_ui_element'
+                        id: '4378b2e22f76be101e83cb2cbfa4e36c'
+                    }
+                    '4378b2e22f76be101e83cb2cbfa4e39d': {
+                        table: 'sys_ui_element'
+                        id: '4378b2e22f76be101e83cb2cbfa4e39d'
+                    }
+                    '4378b2e22f76be101e83cb2cbfa4e3a3': {
+                        table: 'sys_ui_element'
+                        id: '4378b2e22f76be101e83cb2cbfa4e3a3'
+                    }
+                    '4378b2e22f76be101e83cb2cbfa4e3aa': {
+                        table: 'sys_ui_element'
+                        id: '4378b2e22f76be101e83cb2cbfa4e3aa'
+                    }
+                    '4778b2e22f76be101e83cb2cbfa4e39b': {
+                        table: 'sys_ui_element'
+                        id: '4778b2e22f76be101e83cb2cbfa4e39b'
+                    }
+                    '4778b2e22f76be101e83cb2cbfa4e3a2': {
+                        table: 'sys_ui_element'
+                        id: '4778b2e22f76be101e83cb2cbfa4e3a2'
+                    }
+                    '4778b2e22f76be101e83cb2cbfa4e3a8': {
+                        table: 'sys_ui_element'
+                        id: '4778b2e22f76be101e83cb2cbfa4e3a8'
+                    }
+                    '4b78b2e22f76be101e83cb2cbfa4e399': {
+                        table: 'sys_ui_element'
+                        id: '4b78b2e22f76be101e83cb2cbfa4e399'
+                    }
+                    '4b78b2e22f76be101e83cb2cbfa4e3a0': {
+                        table: 'sys_ui_element'
+                        id: '4b78b2e22f76be101e83cb2cbfa4e3a0'
+                    }
+                    '4b78b2e22f76be101e83cb2cbfa4e3a6': {
+                        table: 'sys_ui_element'
+                        id: '4b78b2e22f76be101e83cb2cbfa4e3a6'
+                    }
+                    '4b78b2e22f76be101e83cb2cbfa4e3ad': {
+                        table: 'sys_ui_element'
+                        id: '4b78b2e22f76be101e83cb2cbfa4e3ad'
+                    }
+                    '4f78b2e22f76be101e83cb2cbfa4e397': {
+                        table: 'sys_ui_element'
+                        id: '4f78b2e22f76be101e83cb2cbfa4e397'
+                    }
+                    '4f78b2e22f76be101e83cb2cbfa4e39e': {
+                        table: 'sys_ui_element'
+                        id: '4f78b2e22f76be101e83cb2cbfa4e39e'
+                    }
+                    '4f78b2e22f76be101e83cb2cbfa4e3a4': {
+                        table: 'sys_ui_element'
+                        id: '4f78b2e22f76be101e83cb2cbfa4e3a4'
+                    }
+                    '4f78b2e22f76be101e83cb2cbfa4e3ab': {
+                        table: 'sys_ui_element'
+                        id: '4f78b2e22f76be101e83cb2cbfa4e3ab'
+                    }
+                    '8378b2e22f76be101e83cb2cbfa4e36e': {
+                        table: 'sys_ui_element'
+                        id: '8378b2e22f76be101e83cb2cbfa4e36e'
+                    }
+                    '8378b2e22f76be101e83cb2cbfa4e37b': {
+                        table: 'sys_ui_element'
+                        id: '8378b2e22f76be101e83cb2cbfa4e37b'
+                    }
+                    '8778b2e22f76be101e83cb2cbfa4e379': {
+                        table: 'sys_ui_element'
+                        id: '8778b2e22f76be101e83cb2cbfa4e379'
+                    }
+                    '8778b2e22f76be101e83cb2cbfa4e3c9': {
+                        table: 'sys_ui_element'
+                        id: '8778b2e22f76be101e83cb2cbfa4e3c9'
+                    }
+                    '8b78b2e22f76be101e83cb2cbfa4e3d4': {
+                        table: 'sys_ui_element'
+                        id: '8b78b2e22f76be101e83cb2cbfa4e3d4'
+                    }
+                    '8f78b2e22f76be101e83cb2cbfa4e36f': {
+                        table: 'sys_ui_element'
+                        id: '8f78b2e22f76be101e83cb2cbfa4e36f'
+                    }
+                    '8f78b2e22f76be101e83cb2cbfa4e370': {
+                        table: 'sys_ui_section'
+                        id: '8f78b2e22f76be101e83cb2cbfa4e370'
+                    }
+                    '8f78b2e22f76be101e83cb2cbfa4e37c': {
+                        table: 'sys_ui_element'
+                        id: '8f78b2e22f76be101e83cb2cbfa4e37c'
+                    }
                     app_system_1: {
                         table: 'x_snc_hrc_change_2_application_system'
                         id: '31e70751c9884dc48481264d4d2e820b'
@@ -72,6 +196,66 @@ declare global {
                     briefing_write_acl: {
                         table: 'sys_security_acl'
                         id: '3a1e8bf0dccb4fbba56b566c0d0dc6f5'
+                    }
+                    c378b2e22f76be101e83cb2cbfa4e39c: {
+                        table: 'sys_ui_element'
+                        id: 'c378b2e22f76be101e83cb2cbfa4e39c'
+                    }
+                    c378b2e22f76be101e83cb2cbfa4e3a9: {
+                        table: 'sys_ui_element'
+                        id: 'c378b2e22f76be101e83cb2cbfa4e3a9'
+                    }
+                    c778b2e22f76be101e83cb2cbfa4e39a: {
+                        table: 'sys_ui_element'
+                        id: 'c778b2e22f76be101e83cb2cbfa4e39a'
+                    }
+                    c778b2e22f76be101e83cb2cbfa4e3a1: {
+                        table: 'sys_ui_element'
+                        id: 'c778b2e22f76be101e83cb2cbfa4e3a1'
+                    }
+                    c778b2e22f76be101e83cb2cbfa4e3a7: {
+                        table: 'sys_ui_element'
+                        id: 'c778b2e22f76be101e83cb2cbfa4e3a7'
+                    }
+                    c778b2e22f76be101e83cb2cbfa4e3ae: {
+                        table: 'sys_ui_element'
+                        id: 'c778b2e22f76be101e83cb2cbfa4e3ae'
+                    }
+                    cb78b2e22f76be101e83cb2cbfa4e398: {
+                        table: 'sys_ui_element'
+                        id: 'cb78b2e22f76be101e83cb2cbfa4e398'
+                    }
+                    cb78b2e22f76be101e83cb2cbfa4e39f: {
+                        table: 'sys_ui_element'
+                        id: 'cb78b2e22f76be101e83cb2cbfa4e39f'
+                    }
+                    cb78b2e22f76be101e83cb2cbfa4e3a5: {
+                        table: 'sys_ui_element'
+                        id: 'cb78b2e22f76be101e83cb2cbfa4e3a5'
+                    }
+                    cb78b2e22f76be101e83cb2cbfa4e3ac: {
+                        table: 'sys_ui_element'
+                        id: 'cb78b2e22f76be101e83cb2cbfa4e3ac'
+                    }
+                    cf78b2e22f76be101e83cb2cbfa4e364: {
+                        table: 'sys_ui_section'
+                        id: 'cf78b2e22f76be101e83cb2cbfa4e364'
+                    }
+                    cf78b2e22f76be101e83cb2cbfa4e396: {
+                        table: 'sys_ui_element'
+                        id: 'cf78b2e22f76be101e83cb2cbfa4e396'
+                    }
+                    cf78b2e22f76be101e83cb2cbfa4e39d: {
+                        table: 'sys_ui_element'
+                        id: 'cf78b2e22f76be101e83cb2cbfa4e39d'
+                    }
+                    cf78b2e22f76be101e83cb2cbfa4e3a3: {
+                        table: 'sys_ui_element'
+                        id: 'cf78b2e22f76be101e83cb2cbfa4e3a3'
+                    }
+                    cf78b2e22f76be101e83cb2cbfa4e3aa: {
+                        table: 'sys_ui_element'
+                        id: 'cf78b2e22f76be101e83cb2cbfa4e3aa'
                     }
                     'crma-dashboard': {
                         table: 'sys_ui_page'
