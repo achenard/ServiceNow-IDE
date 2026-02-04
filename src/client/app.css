@@ -1,0 +1,565 @@
+/* HRC CRMA Application Styles - Army Theme */
+:root {
+  --army-black: #000000;
+  --army-gold: #FFD700;
+  --army-gray: #8B8B8B;
+  --army-dark-gray: #2F2F2F;
+  --army-light-gray: #F5F5F5;
+  --success-green: #28a745;
+  --warning-orange: #fd7e14;
+  --danger-red: #dc3545;
+  --info-blue: #17a2b8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--army-light-gray);
+  color: var(--army-black);
+  line-height: 1.6;
+}
+
+.crma-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation Styles */
+.crma-nav {
+  background: linear-gradient(135deg, var(--army-black), var(--army-dark-gray));
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-brand h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--army-gold);
+  margin-bottom: 0.2rem;
+}
+
+.nav-subtitle {
+  font-size: 0.9rem;
+  color: var(--army-gray);
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 2px solid var(--army-gold);
+  color: var(--army-gold);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: var(--army-gold);
+  color: var(--army-black);
+}
+
+.nav-btn.active {
+  background: var(--army-gold);
+  color: var(--army-black);
+  font-weight: bold;
+}
+
+/* Content Area */
+.crma-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Button Styles */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-primary {
+  background: var(--army-black);
+  color: white;
+  border: 2px solid var(--army-black);
+}
+
+.btn-primary:hover {
+  background: var(--army-dark-gray);
+  border-color: var(--army-dark-gray);
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--army-black);
+  border: 2px solid var(--army-gray);
+}
+
+.btn-secondary:hover {
+  background: var(--army-light-gray);
+}
+
+.btn-success {
+  background: var(--success-green);
+  color: white;
+  border: 2px solid var(--success-green);
+}
+
+.btn-warning {
+  background: var(--warning-orange);
+  color: white;
+  border: 2px solid var(--warning-orange);
+}
+
+.btn-danger {
+  background: var(--danger-red);
+  color: white;
+  border: 2px solid var(--danger-red);
+}
+
+/* Status Badges */
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-pre_approval { background: var(--army-gray); color: white; }
+.status-pending { background: var(--warning-orange); color: white; }
+.status-approved { background: var(--success-green); color: white; }
+.status-denied { background: var(--danger-red); color: white; }
+.status-in_review { background: var(--info-blue); color: white; }
+.status-vat_review { background: #6f42c1; color: white; }
+.status-it_ops_review { background: #e83e8c; color: white; }
+.status-voting { background: #fd7e14; color: white; }
+.status-tasked { background: #20c997; color: white; }
+.status-completed { background: var(--success-green); color: white; }
+
+/* Priority Styles */
+.priority-1 { color: var(--danger-red); font-weight: bold; }
+.priority-2 { color: var(--warning-orange); font-weight: bold; }
+.priority-3 { color: var(--info-blue); }
+.priority-4 { color: var(--army-gray); }
+.priority-5 { color: var(--army-gray); }
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--army-black);
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid var(--army-gray);
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--army-gold);
+  box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.2);
+}
+
+textarea.form-control {
+  min-height: 120px;
+  resize: vertical;
+}
+
+select.form-control {
+  cursor: pointer;
+}
+
+/* Loading Styles */
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: var(--army-gray);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .crma-nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .crma-content {
+    padding: 1rem;
+  }
+}
+
+/* Record Detail Styles */
+.record-detail {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--army-light-gray);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.detail-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detail-field label {
+  font-weight: 600;
+  color: var(--army-dark-gray);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.detail-field span {
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: var(--army-light-gray);
+  border-radius: 4px;
+}
+
+.detail-description {
+  margin-bottom: 2rem;
+}
+
+.detail-description label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--army-dark-gray);
+  text-transform: uppercase;
+}
+
+.detail-description p {
+  background: var(--army-light-gray);
+  padding: 1rem;
+  border-radius: 4px;
+  line-height: 1.6;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--army-light-gray);
+}
+
+/* Help Content Styles */
+.help-content {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.help-section {
+  margin-bottom: 2rem;
+}
+
+.help-section h3 {
+  color: var(--army-black);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--army-gold);
+}
+
+.help-section ul, .help-section ol {
+  padding-left: 2rem;
+}
+
+.help-section li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Breadcrumb Styles */
+.breadcrumb {
+  background: white;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+}
+
+.breadcrumb-link {
+  color: var(--army-black);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumb-link:hover {
+  color: var(--army-gold);
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  color: var(--army-gray);
+  margin: 0 0.5rem;
+}
+
+.breadcrumb-current {
+  color: var(--army-gray);
+  font-weight: 600;
+}
+
+.breadcrumb-count {
+  color: var(--army-gray);
+  font-style: italic;
+  margin-left: 0.5rem;
+}
+
+/* Filtered View Styles */
+.filtered-view {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.filtered-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--army-gold);
+}
+
+.filtered-title-section h2 {
+  color: var(--army-black);
+  margin-bottom: 0.5rem;
+}
+
+.filtered-subtitle {
+  color: var(--army-gray);
+  font-size: 1rem;
+}
+
+.filtered-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Detail breadcrumb */
+.detail-breadcrumb {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+/* Table Styles for DRRB List */
+.records-table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 120px 1fr 80px 120px 120px 150px;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--army-black);
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 120px 1fr 80px 120px 120px 150px;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--army-light-gray);
+  transition: background-color 0.2s ease;
+}
+
+.table-row:hover {
+  background: var(--army-light-gray);
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.col-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.col-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.no-records {
+  text-align: center;
+  padding: 3rem;
+  color: var(--army-gray);
+  font-style: italic;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.list-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.search-input {
+  min-width: 250px;
+}
+
+.status-filter {
+  min-width: 150px;
+}
+
+/* Form row for side-by-side fields */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-container {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-header {
+  margin-bottom: 2rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--army-light-gray);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding: 0.75rem 1rem;
+  }
+  
+  .filtered-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .filtered-actions {
+    align-self: stretch;
+  }
+  
+  .table-header,
+  .table-row {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .table-header > div,
+  .table-row > div {
+    padding: 0.25rem 0;
+  }
+  
+  .col-actions {
+    justify-content: flex-start;
+  }
+  
+  .list-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  
+  .list-controls {
+    flex-direction: column;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .search-input,
+  .status-filter {
+    min-width: unset;
+  }
+}

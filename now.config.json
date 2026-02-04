@@ -1,0 +1,6 @@
+{
+  "scope": "x_snc_hrc_change_2",
+  "scopeId": "d6671eaa2f727e101e83cb2cbfa4e372",
+  "name": "HRC Change Release Management (CRMA) Application",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
